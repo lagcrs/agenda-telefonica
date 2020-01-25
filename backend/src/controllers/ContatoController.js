@@ -4,7 +4,7 @@ const Contato = require('../models/Contato');
 module.exports = {
 
     async index(req, res){
-        const contatos = await Contato.find({});
+        const contatos = await Contato.find({}, null, {sort: {nome: 1}});
         return res.json(contatos);
     },
 
@@ -16,8 +16,6 @@ module.exports = {
             email,
             telefone
         });
-
-        console.log("ok");
 
         return res.json(contato);
     }
