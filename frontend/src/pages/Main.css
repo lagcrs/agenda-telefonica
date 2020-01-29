@@ -1,0 +1,88 @@
+.main-container{
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+    max-width: 980px;
+}
+
+.main-container header img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.main-container header h1{
+    color: #38B6FF;
+    margin-top: 10px;
+}
+
+.main-container header form {
+    width: 100%;  
+}
+
+.main-container header form input {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 40px;
+    width: 500px;
+    padding: 0 12px;
+    font-size: 16px;
+    color: #666;
+}
+
+.main-container header form button{
+    margin-left: 10px;
+    height: 40px;
+    border: 0;
+    padding: 0 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: #38B6FF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-container header form button:hover{
+    background: #1aabff;
+}
+
+.main-container .listagem{
+    height: 100%;
+    width: 590px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.main-container .listagem ul{
+    list-style: none;
+}
+
+.main-container .listagem ul li{
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.new-contato{
+    right: 0;
+    float: right;
+    bottom: 50px;
+    right: 80px;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    background: #38B6FF;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-contato a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+}
