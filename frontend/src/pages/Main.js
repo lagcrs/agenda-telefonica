@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/logo.png';
+
 import api from '../services/api';
 
 import './Main.css';
+
+import Header from '../components/Header';
 
 export default function Main() {
 	const [contato, setContato] = useState('');
@@ -21,15 +23,12 @@ export default function Main() {
 	return (
 		<>
 		<div className="main-container">
-			<header>
-				<img src={Logo} alt="Logo"/> <br/>
-				<h1>Agenda Telefônica</h1>
-
-				<form>
-					<input placeholder="Pesquisar contato" value={contato} onChange = { e => setContato(e.target.value)} />
-					<button>Pesquisar</button>
-				</form>
-			</header>
+			
+			<Header/>
+			<form>
+                <input placeholder="Pesquisar contato" value={contato} onChange={e => setContato(e.target.value)} />
+                <button>Pesquisar</button>
+            </form>
 
 			<div className="listagem">
 				<ul>

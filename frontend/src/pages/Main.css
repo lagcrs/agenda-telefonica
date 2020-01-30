@@ -5,21 +5,11 @@
     max-width: 980px;
 }
 
-.main-container header img {
-    max-width: 100px;
-    max-height: 100px;
-}
-
-.main-container header h1{
-    color: #38B6FF;
-    margin-top: 10px;
-}
-
-.main-container header form {
+.main-container form {
     width: 100%;  
 }
 
-.main-container header form input {
+.main-container form input {
     margin-top: 30px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -30,7 +20,7 @@
     color: #666;
 }
 
-.main-container header form button{
+.main-container form button{
     margin-left: 10px;
     height: 40px;
     border: 0;
@@ -42,7 +32,7 @@
     cursor: pointer;
 }
 
-.main-container header form button:hover{
+.main-container form button:hover{
     background: #1aabff;
 }
 
