@@ -22,7 +22,7 @@ export default function Main() {
 
 	return (
 		<>
-		<div className="main-container">
+		<div className="main-container main">
 			
 			<Header/>
 			<form>
